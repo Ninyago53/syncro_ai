@@ -1,0 +1,14 @@
+git+https://github.com/yt-dlp/yt-dlp.git
+moviepy
+git+https://github.com/m-bain/whisperx.git
+torch
+torchvision
+torchaudio
+elevenlabs
+openai
+pydub
+ffmpeg-python
+pyrubberband
+lib
+tinytag
+playsound
