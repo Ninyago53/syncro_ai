@@ -1,5 +1,24 @@
 # syncro_ai
 
+# Python YouTube Video Translator
+
+This Python script uses multiple APIs and libraries to download, transcribe, translate, and generate voiceovers for YouTube videos. Users can save the YouTube video of their choosing, convert the video's audio text into any chosen language, and then convert the translated text into speech. The script supports user input to control whether the original audio is included at a reduced volume.
+
+## Script Functions
+
+1. The Python script first uses the yt_dlp library to download a YouTube video.
+
+2. The downloaded video is then converted into an audio file.
+
+3. The audio file is subsequently segmented and transcribed, using the WhisperX and Torch libraries.
+
+4. After transcription, the OpenAI model gpt-3.5-turbo translates the transcribed text into the user's desired language.
+
+5. The translated text is then again converted into speech, and a separate audio file is generated for each dialogue segment of the video.
+
+6. The audio files are then synchronized with the original video files, and the user has the option to include original audio at reduced volume.
+
+7. Finally, the video is output with the translated voiceover.
 
 ## Prerequisites 
 
