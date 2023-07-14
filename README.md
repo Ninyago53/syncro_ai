@@ -47,7 +47,7 @@ pip install -r requirements.txt
 After installing the packages, run the script like any other Python script:
 
 ```cmd
-python your_script_name.py
+python main.py
 ```
 
 Follow the prompts in the console to download, transcribe, translate and generate a voiceover for a YouTube video.
