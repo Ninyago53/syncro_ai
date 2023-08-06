@@ -31,12 +31,12 @@ This Python script uses multiple APIs and libraries to download, transcribe, tra
 Clone the repository to your local system:
 
 ```cmd
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/Ninyago53/syncro_ai
 ```
 Navigate to the cloned repo's directory
 
 ```cmd
-cd your-repo-name
+cd syncro_ai
 ```
 Create a virtual environment:
 
